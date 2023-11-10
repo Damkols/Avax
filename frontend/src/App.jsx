@@ -16,8 +16,6 @@ const App = () => {
  const [valueNum, setValueNum] = useState(0);
  const { data } = useContractRead(contract, "getStoredValue", []);
 
- console.log(data);
-
  const { mutateAsync, isLoading, error } = useContractWrite(
   contract,
   "setStoredValue"
