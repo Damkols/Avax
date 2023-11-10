@@ -2,7 +2,6 @@
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract KolsToken is ERC20 {
     address public owner;
@@ -11,7 +10,7 @@ contract KolsToken is ERC20 {
         owner = msg.sender;    
     }
 
-    function mint(address to, uint256 amount) public onlyOwner {
+    function mint(address to, uint256 amount) public {
          require(msg.sender == owner, "You are not the Owner");
         _mint(to, amount);
     }
