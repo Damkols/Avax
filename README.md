@@ -1,3 +1,9 @@
+## Video Links
+
+[Video 1](https://www.loom.com/share/71784ad1fcba4237abce31c314c22de7?sid=8e0a1f21-83f6-4749-9e53-b0ab4976f5b5)
+
+[Video 2](https://www.loom.com/share/06cdbf4f010f45d9973ac0e64269a062?sid=50873f16-3523-4920-a059-0d996eaaaabd)
+
 ## Description
 
 Functions
